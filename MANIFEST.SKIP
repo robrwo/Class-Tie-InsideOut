@@ -28,3 +28,4 @@ _darcs\b
 # Avoid Distributions
 
 Class-Tie-InsideOut-\d.*
+\binc/
