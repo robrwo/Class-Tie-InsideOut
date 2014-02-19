@@ -4,7 +4,6 @@ lib/Tie/InsideOut.pm
 Makefile.PL
 MANIFEST
 MANIFEST.SKIP
-META.json
 META.yml
 README
 t/01-load.t
