@@ -72,9 +72,9 @@ Using Build.PL (if you have Module::Build installed):
 
 =head1 DESCRIPTION
 
-This module is a proof-of-concept on of implementing inside-out objects
-using tied hashes.  It makes use of the L<Tie::InsideOut> package to tie
-hash keys to hashes in the calling package's namespace.
+This module is a proof-of-concept for implementing inside-out objects
+using tied hashes.  It makes use of the L<Tie::InsideOut> package to
+tie hash keys to hashes in the calling package's namespace.
 
 Fields are accessed as hash keys, so in traditional Perl objects can be
 easily converted into inside-out objects.
@@ -277,7 +277,7 @@ Robert Rothenberg <rrwo at cpan.org>
 
 =head2 Acknowledgements
 
-Thanks to Ovid (via Chromatic) and Steven Little for advice in PerlMonks 
+Thanks to Ovid (via Chromatic) and Steven Little for advice in PerlMonks
 on the namespace issues with L<Class::Accessor>.
 
 =head2 Suggestions and Bug Reporting
