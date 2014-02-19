@@ -43,7 +43,7 @@ SYNOPSIS
       }
 
 DESCRIPTION
-    This module is a proof-of-concept on of implementing inside-out objects
+    This module is a proof-of-concept for implementing inside-out objects
     using tied hashes. It makes use of the Tie::InsideOut package to tie
     hash keys to hashes in the calling package's namespace.
 
@@ -75,12 +75,10 @@ AUTHOR
     Robert Rothenberg <rrwo at cpan.org>
 
   Acknowledgements
-
     Thanks to Ovid (via Chromatic) and Steven Little for advice in PerlMonks
     on the namespace issues with Class::Accessor.
 
   Suggestions and Bug Reporting
-
     Feedback is always welcome. Please use the CPAN Request Tracker at
     http://rt.cpan.org to submit bug reports.
 
