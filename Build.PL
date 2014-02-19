@@ -28,7 +28,12 @@ my $build = Module::Build->new
      ],
      resources          => {
        license          => 'http://dev.perl.org/licenses/',
-       bugtracker       => 'http://rt.cpan.org/Public/Dist/Display.html?Name=Class-Tie-InsideOut',
+       bugtracker       => 'https://github.com/robrwo/Class-Tie-InsideOut/issues',
+       repository  => {
+           url  => 'git@github.com:robrwo/Class-Tie-InsideOut.git',
+           web  => 'https://github.com/robrwo/Class-Tie-InsideOut',
+           type => 'git',
+       },
      },
 );
 
