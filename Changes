@@ -1,5 +1,17 @@
 Revision history for Perl extension Tie::InsideOut and Class::Tie::InsideOut.
 
+0.11   2014-02-19
+
+       - No functional changes to distro.
+
+       - Added note about status.
+
+       - Removed reference to Build.PL from POD and README.
+
+       - Deleted matching version test.
+
+       - Added note about Hash::Utils in SEE ALSO section.
+
 0.10   2014-02-19
 
        - No functional changes to distro.

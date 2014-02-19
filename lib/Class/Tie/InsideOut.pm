@@ -2,7 +2,7 @@ package Class::Tie::InsideOut;
 
 require Tie::InsideOut;
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 our @ISA = qw( );
 
@@ -31,22 +31,13 @@ Perl 5.6.1, and L<Scalar::Util>.
 
 =head1 INSTALLATION
 
-Installation can be done using the traditional Makefile.PL or the newer
-Build.PL methods.
+Installation can be done using the traditional Makefile.PL method:
 
 Using Makefile.PL:
 
   perl Makefile.PL
   make test
   make install
-
-(On Windows platforms you should use C<nmake> instead.)
-
-Using Build.PL (if you have Module::Build installed):
-
-  perl Build.PL
-  perl Build test
-  perl Build install
 
 =end readme
 
@@ -250,7 +241,7 @@ Add the usual "kwalitee" tests.
 
 A brief list of changes since the previous release:
 
-=for readme include file="Changes" start="0.10" stop="0.053" type="text"
+=for readme include file="Changes" start="0.11" stop="0.053" type="text"
 
 For a detailed history see the F<Changes> file included in this distribution.
 
@@ -283,6 +274,13 @@ on the namespace issues with L<Class::Accessor>.
 
 Feedback is always welcome.  Please use the CPAN Request Tracker at
 L<http://rt.cpan.org> to submit bug reports.
+
+=head1 STATUS
+
+This module has not been seriously updated since 2006, and inside-out
+objects have largely fallen out of favor since then.
+
+It has been marked as C<ADOPTME> on CPAN.
 
 =head1 LICENSE
 
