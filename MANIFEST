@@ -7,7 +7,6 @@ MANIFEST.SKIP
 META.yml
 README
 t/01-load.t
-t/01-version.t
 t/02-basic.t
 t/02-storable.t
 t/03-class-base.t
