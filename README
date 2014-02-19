@@ -55,14 +55,19 @@ DESCRIPTION
 REVISION HISTORY
     A brief list of changes since the previous release:
 
-    0.053 Wed Oct 25 2006
-            - no functional changes to distro
-            - tests no longer make use of Class::Accessor (TODO bugs)
-            - distro is no longer signed due to Module::Signature issues
-            - minor changes to README
+    0.10   2014-02-19
+    
+           - No functional changes to distro.
+    
+           - Reformatted Changes to CPAN::Changes::Spec.
+    
+           - Changes to use Module::Install for Makefile.PL and removed
+                 Build.PL.
+    
+           - Modernised distribution for GitHub.
 
-    Incompatible changes are marked with a '*'. For a detailed history see
-    the Changes file included in this distribution.
+    For a detailed history see the Changes file included in this
+    distribution.
 
 SEE ALSO
     There are various other inside-out object packages on CPAN. Among them:

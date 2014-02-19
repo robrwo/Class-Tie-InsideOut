@@ -250,9 +250,8 @@ Add the usual "kwalitee" tests.
 
 A brief list of changes since the previous release:
 
-=for readme include file="Changes" start="0.053" stop="0.052" type="text"
+=for readme include file="Changes" start="0.10" stop="0.053" type="text"
 
-Incompatible changes are marked with a '*'.
 For a detailed history see the F<Changes> file included in this distribution.
 
 =end readme
