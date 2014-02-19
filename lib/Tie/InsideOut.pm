@@ -7,7 +7,7 @@ use warnings;
 use Carp qw( croak );
 use Scalar::Util qw( refaddr );
 
-our $VERSION = '0.053';
+our $VERSION = '0.10';
 
 our @ISA = qw( );
 

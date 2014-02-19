@@ -1,0 +1,13 @@
+*~
+MYMETA.*
+Makefile
+Build
+Class-Tie-InsideOut*
+*.bak
+blib/*
+_build/*
+pm_to_blib
+META.yml
+META.json
+
+inc/*
