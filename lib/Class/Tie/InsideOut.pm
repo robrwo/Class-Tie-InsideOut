@@ -2,7 +2,7 @@ package Class::Tie::InsideOut;
 
 require Tie::InsideOut;
 
-our $VERSION = '0.053';
+our $VERSION = '0.10';
 
 our @ISA = qw( );
 
