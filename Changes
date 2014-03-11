@@ -1,5 +1,7 @@
 Revision history for Perl extension Tie::InsideOut and Class::Tie::InsideOut.
 
+       - Removed unnecessary dependency from Makefile.PL
+
 0.11   2014-02-19
 
        - No functional changes to distro.
